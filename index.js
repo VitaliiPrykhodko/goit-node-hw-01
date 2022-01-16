@@ -28,9 +28,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// invokeAction({action: "list"})
-// invokeAction({ action: "get", id: "2" })
-// invokeAction({action: "add", name: "Vitalii Dev", email: "v@gmail.com", phone: "727-800-300"})
-// invokeAction({ action: "remove", id: "4uzwrCE1X" })
-
 invokeAction(argv);
